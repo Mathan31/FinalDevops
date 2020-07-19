@@ -12,6 +12,7 @@ public class InvokeChrome {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
 		System.out.println("Title is : "+driver.getTitle());
+		System.out.println("URL is : "+driver.getCurrentUrl());
 		driver.quit();
 	}
 
